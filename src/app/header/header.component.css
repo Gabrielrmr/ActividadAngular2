@@ -1,0 +1,124 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.header_Cuerpo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+}
+.header_Encabezado{
+    display:flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.Logo{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.Logo h2{
+    font-family: "Cormorant Garamond";
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.Encabezado_Buttom{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.Encabezado_Buttom div{
+    display: flex;
+    gap: 10px;
+}
+.Encabezado_Buttom h4{
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.Encabezado_Buttom img{
+    width: 30px;
+    height: 30px;
+}
+.Encabezado_Buttom button{
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FFFFFF1A;
+    border-style: none;
+    padding: 30px;
+}
+.header_Links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #4E555F;
+    border-bottom: 1px solid #4E555F;
+    padding: 30px 0;
+}
+.Cell,.Email{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Cell div,.Email div{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #CCAA60;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.Links_Principales{
+    display: flex;
+    gap: 50px;
+}
+.Links_Principales a{
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.Email_Call{
+    display: flex;
+    gap: 25px;
+}
+.Email_Call span{
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CCAA60;
+}
+.Email_Call h3{
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
